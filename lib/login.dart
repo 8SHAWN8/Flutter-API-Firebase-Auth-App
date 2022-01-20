@@ -97,7 +97,7 @@ class _MyAppState extends State<Login> {
                             });
                       }
 
-                      return CircularProgressIndicator();
+                      return Center(child: CircularProgressIndicator());
                     }),
               ),
             ),
